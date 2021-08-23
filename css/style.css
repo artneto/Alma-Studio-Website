@@ -3,16 +3,17 @@
 *{
     box-sizing:border-box;
     margin: 0;
-    padding: 0;
-    background-color:#456c87;
+    padding:0;
+    
 }
-
+/*nav_bar*/
 li, a, button {
 font-family:"Bebas Neue", sans-serif;
 font-weight: 500;
 font-size: 20px;
 color:white;
 text-decoration:none;
+background-color:#456c87;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
     justify-content: space-between;
     align-items:center;
     padding: 30px 10%;
+    background-color:#456c87;
 }
 
 .logo{
@@ -47,13 +49,13 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(156, 173, 188);
+    background-color: rgb(54, 78, 99);
     border:none;
-    border-radius: 50px;
+    border-radius: 30px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(156, 173, 188,0.8);
+    background-color: rgba(6, 11, 15, 0.8);
 }
