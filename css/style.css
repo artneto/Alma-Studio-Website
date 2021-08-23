@@ -79,6 +79,11 @@ h1 {
     margin-bottom: 15px;
     font-family:"Bebas Neue", cursive;
 }
+.p{
+font-size: 1.2rem;
+max-width: 600px;
+margin: auto;
+}
 .showcase {
     position: relative;
     height: 100vh;
@@ -117,7 +122,7 @@ h1 {
     left:0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.007);
 }
 /*bottom join in border*/
 .content {
@@ -158,7 +163,5 @@ h1 {
     margin: 30px 0;
     color: var(--primary-color);
 }
+/*section2*/
 
-.social a{
-    margin: 0 5px;
-}
