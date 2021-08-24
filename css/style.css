@@ -57,6 +57,7 @@ button {
 }
 
 button:hover {
+    letter-spacing: 6px;
     background-color: rgba(6, 11, 15, 0.8);
 }
 
@@ -140,9 +141,11 @@ margin: auto;
     border: 1px #fff solid;
     margin-top:25px;
     opacity: 0.7;
+    letter-spacing: 6px;
 }
 
 .btn:hover {
+    letter-spacing: 6px;
     transform: scale(0.98);
 }
 
