@@ -93,7 +93,7 @@ h1 {
     font-size: 60px;
     line-height: 1.2;
     margin-bottom: 15px;
-    font-family:"Bebas Neue", cursive;
+    font-family: Bebas Neue;
 }
 .p{
 font-size: 1.2rem;
@@ -176,6 +176,9 @@ margin: auto;
     font-size: 1.2rem;
     max-width: 600px;
     margin: auto;
+    font-family: "Open Sans", cursive;
+    text-align:justify;
+    
 }
 
 #about h2 {
@@ -190,7 +193,10 @@ margin: auto;
     justify-content: space-around;
     
 }
+.info{
+    font-family: "Open Sans";
 
+}
 .card{
     width: 280px;
     height: 360px;
@@ -257,9 +263,71 @@ margin: auto;
 }
 
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-      height:100%;
-    }
+/*section team */
+
+.meet-our-team { 
+    text-align: center;
+    background: #fff;
+}
+
+.header {
+    padding-top:60px;
+    color: #000;
+    font-size: 20px;
+    margin:auto;
+    line-height: 50px;
+}
+
+.sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.teams:hover {
+  background: #456c87;
+
+}
+
+.teams img {
+    widows: 200px;
+    height: 200px;
+    border-radius: 5px 10px 15px 20px;
+}
+
+.name {
+    padding: 12px;
+    font-weight:bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family:"Bebas Neue", cursive;
+}
+
+.design {
+    font-style: italic;
+    color: white;
+    font-family:"Bebas Neue", cursive;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: black;
+    justify:justify;
+    font-family: "Open Sans", cursive;
+    
+}
