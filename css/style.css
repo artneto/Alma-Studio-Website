@@ -287,7 +287,7 @@ margin: auto;
 }
 .comments p{
     font-size:0.9rem;
-    color:greenyellow;
+    color:greenyellow; /*Consertar aqui*/
 
 }
 }
