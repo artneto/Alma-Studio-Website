@@ -189,6 +189,10 @@ margin: auto;
 
 /*user reviews*/
 
+#testimonials{
+    margin: 0%;
+}
+
 .user-reviews{
     display: flex;
     justify-content: center;
@@ -430,6 +434,7 @@ margin: auto;
 
 
 /*footer*/
+
 .footer-container {
     background:#456c87;
     height:auto;
