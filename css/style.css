@@ -628,7 +628,9 @@ main form input{
 }
 
 .input-field input { 
+    border: none;
     outline: none;
+    margin:5px;
     font-size:0.9rem;
     color:rgba(0, 0, 0, 0.5);
 }
