@@ -5,46 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Login</title>
     <head>
     <body>
-        <div class="container-acc">
-
-            <div class="main-container">
-            <h2 class="tittle-acc">Sign In</h2>
-            <form action="">
-            <div class="input-field">
-                <input type="text" name="username" id="username" placeholder="Enter Your Username">
-
-                <div class="underline"></div>
-            </div>
-
-            <div class="input-field">
-                <input type="password" name="password" id="password" placeholder="Enter Your Password">
-
-                <div class="underline"></div>
-            </div>
-                <input type="submit" value="Continue">
-          </form>
-      
         
-          <div class="footer-acc">
-            <span>Or Connect with your social media</span>
-            <div class="social-fields">
-                <div class="social-field twitter">
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                                aria-label="login  with your twitter (opens in a new tab)"><i class="fa fa-twitter"></i>Sign-in Twitter</a>
-                </div>
+        <main class="login">
+            <div class="login-container">
+                <h2 class="login-title"> Sign-in</h2>
+            <form class="login-form">
+                <input class="login-input" type="email" placeholder="Enter your username">
+                <span class="login_input-border"></span>
+                <input class="login-input" type="password" placeholder="Enter your password">
+                <span class="login_input-border"></span>
+                <button class="login-submit">Sign In</button>
+                <a class="login-reset" href="#">Forgot Password?</a>
+            </form>
             </div>
-            <div class="social-field facebook">
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                                aria-label="login  with your facebook account (opens in a new tab)"><i class="fa fa-facebook"></i>Sign-in Facebook</a>
-            </div>
-        
-        </div>
-        </div>
-        </div>
+        </main>
     </body>
         
     </head>
