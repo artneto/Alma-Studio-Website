@@ -88,6 +88,11 @@ h1 {
     padding: 10px;
     font-family: "Bebas Neue", sans-serif;
 }
+
+h3 {
+    padding: 50px;
+    font-size:50px;
+}
 .p{
 font-size: 1.2rem;
 max-width: 600px;
