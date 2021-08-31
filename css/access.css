@@ -154,6 +154,9 @@ form input[type="submit"]:hover{
     background:linear-gradient(to right,#1e3c72,#2a5298);
 }
 
+.footer-acc .media-social.google{
+    background:linear-gradient(to right,#d93025,#d93125a9);
+}
 
 /*-----------------Register Now---------------------*/
 
@@ -194,5 +197,16 @@ form input[type="submit"]:hover{
 
 form .user-details .input-box{
     width: 50% 90%;
+    margin:20px 0 12px 0;
 
+}
+
+.user-details .input-box .details{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
 }
