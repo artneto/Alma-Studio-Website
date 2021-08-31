@@ -132,7 +132,7 @@ form input[type="submit"]:hover{
     border-radius: 4px;
     font-size: 0.85rem;
     width: 100%;
-    margin: 1rem;
+    cursor:pointer;
 }
 
 .footer-acc .media-social a {
@@ -146,8 +146,52 @@ form input[type="submit"]:hover{
 }
 .footer-acc .media-social.twitter{
     background:linear-gradient(to right,#56a7f2, #468aca);
+
 }
 
 .footer-acc .media-social.facebook{
     background:linear-gradient(to right,#1e3c72,#2a5298);
+}
+
+
+/*-----------------Register Now---------------------*/
+
+
+.container {
+    background:#ffff;
+    max-width: 750px;
+    width:100%;
+    padding:25px 30px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.container .title{
+    font-size:25px;
+    font-weight: 400;
+    position:relative;
+
+}
+
+.container .title::before{
+    content:'';
+    background: linear-gradient(45deg,#37607D, #EAFCFF);
+    position: absolute;
+    height:3px;
+    width:30px;
+    bottom:3px;
+    left:0;
+    border-radius:10px;
+
+}
+
+.container form .user-details{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box{
+    width: 50% 90%;
+
 }
