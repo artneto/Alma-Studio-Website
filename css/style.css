@@ -71,9 +71,7 @@ header {
     letter-spacing: 6px;
 }
 
-@media(max-width: 700px) {
 
-}
 /*section video 1*/
 
 .video-container {
@@ -551,3 +549,4 @@ a{
     color:white;
     
 }
+/*-------------------About us-----------------------------*/
