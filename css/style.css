@@ -551,24 +551,4 @@ a{
 
 /*-----------------About us ------------------------*/
 
-.section01 {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #ddd;
-}
-
-.content-section{
-    width:55%;
-    float: left;
-}
-
-.img-abt {
-    float: right;
-    width: 40%;
-}
-
-.img-abt img{
-    width: 100%;
-    height: auto;
-}
 
