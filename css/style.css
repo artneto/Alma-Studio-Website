@@ -155,7 +155,7 @@ h3 {
 .btn{
     display: inline-block;
     padding: 10px 30px;
-    background: var (--primary-color);
+    background: var(--primary-color);
     color:#fff;
     border: 1px #fff solid;
     margin-top:25px;
@@ -453,7 +453,7 @@ a{
     margin: 20px 0;
     font-weight: lighter;
     color: black;
-    justify-content:justify;
+    justify-content:center;
     font-family: "Open Sans";
     
 }
@@ -546,13 +546,29 @@ a{
     opacity: 4;
     font-weight: 200;
     text-transform:inherit;
-    color:white;
-    
+    color:#ffff;
 }
-/*-------------------About us-----------------------------*/
 
-.abt-container{
-    background-color: yellow;
-    padding-top: 1rem;
-    text-align: center;
+/*-----------------About us ------------------------*/
+
+.section01 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
 }
+
+.content-section{
+    width:55%;
+    float: left;
+}
+
+.img-abt {
+    float: right;
+    width: 40%;
+}
+
+.img-abt img{
+    width: 100%;
+    height: auto;
+}
+
