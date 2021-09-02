@@ -550,3 +550,9 @@ a{
     
 }
 /*-------------------About us-----------------------------*/
+
+.abt-container{
+    background-color: yellow;
+    padding-top: 1rem;
+    text-align: center;
+}
