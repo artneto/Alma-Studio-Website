@@ -552,3 +552,39 @@ a{
 /*-----------------About us ------------------------*/
 
 
+#abt-us{
+    font-weight: 200;
+    font-size: 59px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    padding-top: 27px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+.content-abt p{
+    font-size: 0.9375rem;
+    max-width: 100%;
+    margin: 55px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.img-abt{
+    width: 40%;
+    padding:50px;
+    float:right;
+}
+
+.img-abt img{
+    vertical-align: middle;
+    height: 100%;
+    position: relative;
+    width: 162px;
+    left: 80px;
+    bottom: 89px;
+}
+
+.cal-abt{
+    padding:0px;
+}
