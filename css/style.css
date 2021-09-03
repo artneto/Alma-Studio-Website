@@ -388,8 +388,8 @@ a{
 
 }
 
-#block1 p{
-    padding:10px; /*consertar block1*/
+#block1 {
+    margin-right: 70px; 
 }
 
 
