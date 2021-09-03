@@ -551,40 +551,34 @@ a{
 
 /*-----------------About us ------------------------*/
 
-
-#abt-us{
-    font-weight: 200;
-    font-size: 59px;
-    line-height: 1.2;
-    margin-bottom: 15px;
-    padding-top: 27px;
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
+.description-abt{
+    max-width: 800px;
+    margin:30px auto 20px;
 }
-.content-abt p{
-    font-size: 0.9375rem;
-    max-width: 100%;
-    margin: 55px;
+
+.description-abt .floating-image{
+    max-width: 400px;
+    position: relative;
+    top:12px;
+    overflow: hidden;
+
+}
+
+.description-abt .floating-image.right{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.description-abt .floating-image.left{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.description-abt p{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    overflow: hidden;
 }
 
-.img-abt{
-    width: 40%;
-    padding:50px;
-    float:right;
-}
-
-.img-abt img{
-    vertical-align: middle;
-    height: 100%;
-    position: relative;
-    width: 162px;
-    left: 80px;
-    bottom: 89px;
-}
-
-.cal-abt{
-    padding:0px;
-}
+/*---------------------Nutrition Page--------------------*/
