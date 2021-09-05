@@ -795,6 +795,7 @@ form .gender-info  .category{
     display:flex;
     justify-content: space-between;
     margin:14px 0;
+
 }
 
 .gender-info  .category label{
@@ -810,6 +811,7 @@ form .gender-info  .category{
     border-radius: 50%;
     margin-right: 10px;
     background-color:#d9d9d9;
+    
 }
 
 #opt01:checked ~ .category label .one,
@@ -817,6 +819,7 @@ form .gender-info  .category{
 #opt03:checked ~ .category label .three{
     border-color:#d9d9d9;
     background: #110416;
+    
 }
 
 form input[type="radio"]
