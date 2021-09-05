@@ -856,7 +856,7 @@ form .button-form input:hover{
 }
 /*---------------Login Page----------------*/
 
-.login-form{ 
+#social-acc{ 
     background: linear-gradient(45deg,#37607D, #EAFCFF);
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -866,86 +866,43 @@ form .button-form input:hover{
     display: flex;
 }
 
-main.social-container  {
+.social-container  {
     background:#ffff;
     max-width: 350px;
-    min-height: 302px;
+    min-height: 40vh;
     padding:2rem;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
 
-.login-title h2{
-    margin-bottom:2rem;
-    font-weight: 600;
-    position: relative;
-    text-transform:capitalize;
+.title-access {
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    position:relative;
+    height: 2em;
 }
 
-.login-title h2::before {
+.title-access::before {
     content:'';
     background: linear-gradient(45deg,#37607D, #EAFCFF);
     position: absolute;
     height:3px;
     width:30px;
-    bottom:3px;
-    left:0;
+    bottom:11px;
+    left:9px;
     border-radius:10px;
 }
 
-form{
-    display:flex;
-    flex-direction: column;
-}
-
-form .input-field:first-child{
-    margin-bottom: 1.5rem;
-}
-
-.input-field .underline::before{
-    content:'';
-    position:absolute;
-    height:1px;
-    width:100%;
-    left:0;
-    bottom:-5px;
-    background: rgba(0,0,0, 0.2);
-
-}
-
-.input-field .underline::after{
-    content:'';
-    position:absolute;
-    height:1px;
-    width:100%;
-    left:0;
-    bottom:-5px;
-    background: linear-gradient(45deg,#37607D, #EAFCFF);
-    transform: scaleX(0);
-    transition: all .3s ease-in-out;
-    transform-origin: left;
-
-}
-
-.input-field input:focus~ .underline::after{
-    transform: scaleX(1);
-}
-
-
-.input-field {
-    position: relative;
-}
-
 .input-field input{
-    outline:none;
-    font-size:0.9rem;
-    color: rgba(0,0,0,0.2);
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.7);
+    margin-top:1rem;
 }
 
-.input-field input::placeholder {
-    color:rgba(0,0,0,0.5);
-}
 
 form input[type="submit"] {
     margin-top: 2rem;
@@ -955,9 +912,11 @@ form input[type="submit"] {
     cursor: pointer;
     font-size: 0.9rem;
     font-weight: 800;
+    border:none;
     border-radius: 4px;
     height:48px;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form input[type="submit"]:hover{
@@ -975,9 +934,10 @@ form input[type="submit"]:hover{
     color:rgba(0,0,0,0.7);
     font-size: 0.8rem;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-acc .media-social {
+.footer-acc .media-social{
     padding: 0.4rem;
     border-radius: 4px;
     font-size: 0.85rem;
@@ -986,7 +946,7 @@ form input[type="submit"]:hover{
     margin-top: 1rem;
 }
 
-.footer-acc .media-social a {
+.footer-acc .fa{
     text-decoration: none;
     color:#ffff;
 }
