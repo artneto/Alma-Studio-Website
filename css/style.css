@@ -7,19 +7,16 @@
     font-family: "Bebas Neue",sans-serif;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-}
 
 /*nav_bar*/
 li, a {
 font-family:"Bebas Neue",sans-serif;
 font-weight: 500;
 font-size: 20px;
-color:white;
+color:#fff;
 text-decoration:none;
 background-color:#456c87;
+
 }
 
 .login-btn {
@@ -30,22 +27,27 @@ color:white;
 text-decoration:none;
 background-color:#456c87;
 
+
 }
 header {
     display:flex;
     justify-content: space-between;
     align-items:center;
     padding: 30px 10%;
+    width:100vw;
     background-color:#456c87;
+    
 }
 
 .logo{
     cursor: pointer;
     width: 19%;
+    
 }
 
 .nav_links {
     list-style: none;
+    
 }
 
 .nav_links li {
@@ -83,11 +85,13 @@ header {
 .video-container {
     display:flex;
     height: 100vh;
+    
 }
 
 .content {
     margin:auto;
     text-align:center;
+    
 }
 
 h2 {
@@ -119,14 +123,14 @@ h3 {
     justify-content: center;
     text-align:center;
     padding: 0 20px;
+    
 
 }
 .video-container {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height:100%;
+    width: 100vw;
     overflow: hidden;
     
 }
@@ -471,7 +475,7 @@ a{
 
 
 .text-wrapper{
-    /*------------o tamanho do footer---------*/
+    /*------------size footer---------*/
 }
 
 .footer-container {
@@ -564,17 +568,17 @@ a{
 
 /*-----------------About us ------------------------*/
 
+
 .description-abt{
     max-width: 800px;
     margin:30px auto 20px;
+    
 }
 
 .description-abt .floating-image{
     max-width: 400px;
     position: relative;
     top:12px;
-    overflow: hidden;
-
 }
 
 .description-abt .floating-image.right{
@@ -864,6 +868,7 @@ form .button-form input:hover{
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 
 .social-container  {
