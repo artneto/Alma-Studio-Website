@@ -247,6 +247,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
     width:100%;
+    margin-bottom: 20px;
 }
 
 
@@ -473,9 +474,6 @@ a{
 /*footer*/
 
 
-.text-wrapper{
-    /*------------size footer---------*/
-}
 
 .footer-container {
     background:#456c87;
