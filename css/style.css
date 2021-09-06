@@ -439,10 +439,6 @@ a{
     border-radius: 15px;
 }
 
-.teams:hover {
-  background: #426984;
-
-}
 
 .teams img {
     width: 142px;
@@ -460,7 +456,7 @@ a{
 
 .design {
     font-style: italic;
-    color: white;
+    color: rgb(8, 3, 3);
     font-family:"Bebas Neue", cursive;
 }
 
