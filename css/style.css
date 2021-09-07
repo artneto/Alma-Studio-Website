@@ -990,10 +990,14 @@ form input[type="submit"]:hover{
 
 
 /*------------Media for Register------------*/
-    @media only screen and (max-device-height: 320px)  {
-    .register-container{
-        width:100%;
-        font-size:10px;
+@media only screen and (max-width: 600px){
+    .register-container {
+        display: flex;
+        max-height: 97%;;
+        max-width: 290px;
+        font-size: 14px;
+        padding: 21px;
+        margin-top: 1px;
     }
 
     .right{
@@ -1008,18 +1012,27 @@ form input[type="submit"]:hover{
 
     form .user-details .input-box{
         width: 100%;
-       
+    
     }
     form .gender-info  .category{
         width: 100%;
         
-    
     }
     .register-container form .user-details{
-        max-height: 300px;
-        overflow-y: scroll;
+        margin-top: 12px;
+        font-size: 12px;
+        font-weight: 900;
     }
     .user-details::-webkit-scrollbar{
         width: 0;
+    }
+    
+    .user-details .input-box .details-user{
+        font-weight: 900;
+    }
+
+    .user-details .input-box input{
+        font-style: italic;
+        font-size: 12px;
     }
 }
