@@ -976,6 +976,7 @@ form input[type="submit"]:hover{
     .left{
     height:200px;
     }
+    
 
     .field{
         font-size:13px;
@@ -1035,18 +1036,27 @@ form input[type="submit"]:hover{
         font-style: italic;
         font-size: 12px;
     }
+
+    .container01{
+        display:inline;
+    }
+
+    .description-abt p{
+        font-size: 1rem;
+    }
 }
 
-/*-------------------Media query for Homw Page--------------*/
+@media only screen and (max-device-width: 320px){
+    .field{
+        font-size: 12px;
+    }
+}
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 768px) 
-   {
+/*-------------------Media query for HomePage--------------*/
 
-
-
+@media only screen and (max-device-width: 768px){
   .sub-container{
-    margin-inline: 371px;
+    margin-inline: 320px;
     flex-direction: column;
 
     }
@@ -1070,7 +1080,19 @@ form input[type="submit"]:hover{
         left:8%;
 
     }
+
+    .container01{
+        padding: 197px;
+        max-block-size: fit-content;
+         margin-top: -200px;
+    }
+
+    .description-abt p{
+        font-size: 14px;
+    }
 } 
+
+
 
 
 
