@@ -936,6 +936,12 @@ form input[type="submit"]:hover{
 
 @media only screen and (max-device-width:1150px){
     
+    .header{
+        width:100%;
+    }
+
+
+
 
     .sub-container{
         flex-direction: column;
@@ -954,6 +960,7 @@ form input[type="submit"]:hover{
 
     .card{
         margin-top: 23px;
+        left:16%;
 
     }
 }
