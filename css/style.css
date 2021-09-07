@@ -990,7 +990,7 @@ form input[type="submit"]:hover{
 
 
 /*------------Media for Register------------*/
-    @media only screen and (max-device-height: 568px)  {
+    @media only screen and (max-device-height: 320px)  {
     .register-container{
         width:100%;
         font-size:10px;
@@ -1003,6 +1003,7 @@ form input[type="submit"]:hover{
     .register-box{
         justify-content: center;
         align-items: center;
+        padding: 0px;
     }
 
     form .user-details .input-box{
