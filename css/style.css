@@ -942,7 +942,9 @@ form input[type="submit"]:hover{
     }
     
 
-
+    #about {
+     padding:1px;
+ }
 
     .sub-container{
         flex-direction: column;
@@ -957,6 +959,11 @@ form input[type="submit"]:hover{
 
     .wrapper{
         display:inline;
+    }
+
+    .about{
+        text-align: justify;
+        width:230px;
     }
 
     .card{
@@ -975,7 +982,8 @@ form input[type="submit"]:hover{
     }
 
     .field{
-        font-size:10px;
+        font-size:13px;
+        width: 200px;
     }
     }
 
@@ -986,6 +994,10 @@ form input[type="submit"]:hover{
     .register-container{
         width:100%;
         font-size:10px;
+    }
+
+    .right{
+        width:25px 40px;
     }
 
     .register-box{
