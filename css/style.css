@@ -934,7 +934,7 @@ form input[type="submit"]:hover{
 
 /*-----------Media for meet our team---------------*/
 
-@media only screen and (max-device-width:1150px){
+@media only screen and (max-device-width:1200px){
     
     .header{
         width:100%;
@@ -945,10 +945,6 @@ form input[type="submit"]:hover{
     #about {
      padding:1px;
  }
-
-    .sub-container{
-        flex-direction: column;
-        padding: 114px;
 
     }
     .teams{
@@ -1000,6 +996,10 @@ form input[type="submit"]:hover{
         margin-top: 1px;
     }
 
+    .sub-container{
+        margin-inline: 136px;
+        flex-direction: column;
+    }
     .right{
         width:25px 40px;
     }
@@ -1036,3 +1036,41 @@ form input[type="submit"]:hover{
         font-size: 12px;
     }
 }
+
+/*-------------------Media query for Homw Page--------------*/
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) 
+   {
+
+
+
+  .sub-container{
+    margin-inline: 371px;
+    flex-direction: column;
+
+    }
+    .teams{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper{
+        display:grid;
+    }
+
+    .about{
+        text-align: justify;
+        width:230px;
+    }
+
+    .card{
+        margin-top: 23px;
+        left:8%;
+
+    }
+} 
+
+
+
