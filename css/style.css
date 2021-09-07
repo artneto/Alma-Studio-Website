@@ -151,7 +151,7 @@ h3 {
     height: 100%;
     background: rgba(0, 0, 0, 0.007);
 }
-/*bottom join in border*/
+/*button join in border*/
 .content {
     z-index: 10;
     color:#ffff;
@@ -175,7 +175,7 @@ h3 {
     transform: scale(0.98);
 }
 
-/*about us*/
+/*What we offer*/
 
 #about {
     padding: 40px;
@@ -184,7 +184,7 @@ h3 {
 }
 
 #about p {
-    font-size: 1.2rem;
+    font-size: 16px;
     max-width: 75%;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
@@ -648,18 +648,6 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
-#font-about::after{
-    content:'';
-    position: absolute;
-    left:40%;
-    margin-bottom: 11px;
-    bottom:0;
-    transform:translateX(-50%);
-    width: 50px;
-    height: 4px;
-    border-radius: 2px;
-    background: linear-gradient(45deg,#37607D, #EAFCFF);
-}
 
 .field{
     width: 100%;
@@ -737,19 +725,11 @@ a{
     font-weight: 800;
     position:relative;
     height: 2em;
+    text-transform: capitalize;
 
 }
 
-.register-container .title::before{
-    content:'';
-    background: linear-gradient(45deg,#37607D, #EAFCFF);
-    position: absolute;
-    height:3px;
-    width:30px;
-    bottom:21px;
-    left:0;
-    border-radius:10px;
-}
+
 
 .register-container form .user-details{
     display: flex;
@@ -885,16 +865,7 @@ form .button-form input:hover{
     height: 2em;
 }
 
-.title-access::before {
-    content:'';
-    background: linear-gradient(45deg,#37607D, #EAFCFF);
-    position: absolute;
-    height:3px;
-    width:30px;
-    bottom:11px;
-    left:9px;
-    border-radius:10px;
-}
+
 
 .input-field input{
     outline: none;
@@ -959,17 +930,24 @@ form input[type="submit"]:hover{
     margin-left: 0;
 }
 
-@media only screen and (min-device-width:320px) and (max-device-width:480px){
-    .wrapper{ 
-        display: grid;
-    }
+
+
+/*-----------Media for meet our team---------------*/
+
+@media only screen and (max-device-width:1150px){
+    
+
     .sub-container{
-        display: inline-grid;
-        text-align: justify;
-        width:200px;
+        flex-direction: column;
+        padding: 114px;
+
+    }
+    .teams{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
-
 @media screen and (max-width:880px) {
     .contact-about-box{
     grid-template-columns: 1fr;
@@ -983,3 +961,35 @@ form input[type="submit"]:hover{
         font-size:10px;
     }
     }
+
+
+
+/*------------Media for Register------------*/
+    @media only screen and (max-device-height: 568px)  {
+    .register-container{
+        width:100%;
+        font-size:10px;
+    }
+
+    .register-box{
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .user-details .input-box{
+        width: 100%;
+       
+    }
+    form .gender-info  .category{
+        width: 100%;
+        
+    
+    }
+    .register-container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
