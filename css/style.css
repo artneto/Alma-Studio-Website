@@ -320,7 +320,7 @@ a{
 
 .wrapper{
     display: flex;
-    width: 100%;
+    width: 91%;
     justify-content: space-around;
     
 }
@@ -934,7 +934,7 @@ form input[type="submit"]:hover{
 
 /*-----------Media for meet our team---------------*/
 
-@media only screen and (max-device-width:1200px){
+@media only screen and (min-device-width:1281px){
     
     .header{
         width:100%;
@@ -943,7 +943,7 @@ form input[type="submit"]:hover{
     
 
     #about {
-     padding:1px;
+     padding:34px;
  }
 
     }
@@ -953,9 +953,6 @@ form input[type="submit"]:hover{
         align-items: center;
     }
 
-    .wrapper{
-        display:inline;
-    }
 
     .about{
         text-align: justify;
@@ -985,7 +982,56 @@ form input[type="submit"]:hover{
     }
 
 
+/*-------------------Media query for HomePage--------------*/
 
+@media only screen and (max-device-width: 768px){
+  .sub-container{
+    margin-inline: 320px;
+    flex-direction: column;
+
+    }
+    .teams{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper{
+        display:grid;
+    }
+
+    .about{
+        text-align: justify;
+        width:230px;
+    }
+
+    .card{
+        margin-top: 23px;
+        left:8%;
+
+    }
+
+    .container01{
+        padding: 197px;
+        max-block-size: fit-content;
+         margin-top:  -247px;
+
+    }
+
+    .description-abt p{
+        font-size: 14px;
+    }
+
+    .description-abt .floating-image.left {
+        max-width: 320px;
+        margin-top: 0.5rem;
+    }
+
+    .description-abt .floating-image.right {
+        max-width: 400px;
+        margin: 0px -19px;
+    }
+} 
 /*------------Media for Register------------*/
 @media only screen and (max-width: 600px){
     .register-container {
@@ -1046,52 +1092,32 @@ form input[type="submit"]:hover{
     }
 }
 
-@media only screen and (max-device-width: 320px){
-    .field{
-        font-size: 12px;
-    }
-}
 
-/*-------------------Media query for HomePage--------------*/
-
-@media only screen and (max-device-width: 768px){
-  .sub-container{
-    margin-inline: 320px;
-    flex-direction: column;
-
-    }
-    .teams{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     .wrapper{
-        display:grid;
+        display: grid;
+        padding: 0px 20px;
+        max-width: 281px;
+    }
+    
+
+    #about{
+        padding: 4px;
+    padding-bottom: 10px;
     }
 
-    .about{
-        text-align: justify;
-        width:230px;
-    }
-
-    .card{
-        margin-top: 23px;
-        left:8%;
-
-    }
-
-    .container01{
-        padding: 197px;
-        max-block-size: fit-content;
-         margin-top: -200px;
+    .description-abt .floating-image.right {
+        max-width: 400px;
+        margin: 0px -19px;
     }
 
     .description-abt p{
-        font-size: 14px;
-    }
-} 
+        font-size: 13px;
+        padding: 15px;
 
+    }
+}
 
 
 
