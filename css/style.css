@@ -940,7 +940,7 @@ form input[type="submit"]:hover{
 
 /*-----------Media for meet our team---------------*/
 
-@media only screen and (min-device-width:1281px){
+@media only screen and (min-width:1281px){
     
     .header{
         width:100%;
@@ -950,7 +950,7 @@ form input[type="submit"]:hover{
 
     #about {
      padding:34px;
- }
+      
 
     }
     .teams{
@@ -982,15 +982,18 @@ form input[type="submit"]:hover{
     
 
     .field{
+        display:block;
         font-size:13px;
         width: 200px;
     }
+
+    
     }
 
 
 /*-------------------Media query for HomePage--------------*/
 
-@media only screen and (max-device-width: 768px){
+@media only screen and (max-width: 768px){
   .sub-container{
     margin-inline: 320px;
     flex-direction: column;
@@ -1037,6 +1040,7 @@ form input[type="submit"]:hover{
         max-width: 400px;
         margin: 0px -19px;
     }
+    
 } 
 /*------------Media for Register------------*/
 @media only screen and (max-width: 600px){
@@ -1054,7 +1058,8 @@ form input[type="submit"]:hover{
         flex-direction: column;
     }
     .right{
-        width:25px 40px;
+        width: 98%;
+        padding: 0px;
     }
 
     .register-box{
@@ -1099,7 +1104,7 @@ form input[type="submit"]:hover{
 }
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 
     .wrapper{
         display: grid;
@@ -1123,6 +1128,12 @@ form input[type="submit"]:hover{
         padding: 15px;
 
     }
+
+    .field{
+        display:block;
+    }
+
+    
 }
 
 
