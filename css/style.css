@@ -397,12 +397,18 @@ a{
 }
 
 #block1 {
-    margin-right: 70px; 
+    margin-right: 70px;
+    
 }
 
 #block3 {
     padding-right: 10px;
 }
+
+#block1txt{
+    text-align: justify;
+}
+
 
 
 /*section team */
