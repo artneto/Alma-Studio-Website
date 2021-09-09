@@ -87,10 +87,45 @@ DevTools was also used to test the responsiveness using the device toolbar.
 - Adjusted margins and container padding to ensure that content in the container does not appear disproportionate on smaller displays.
 
 
+<h1>FEATURES</h1>
+
+<h4>Navigation Bar</h4>
+
+-This section will allow users to easily navigate from page to page on all devices without having to use the 'back' button to return to previous page.
+
+<h4>Landing page video</h4>
+
+-The landing includes a video overlay button with to allow the user to be directed to the registration form.
+
+<h4>section sancturary in your home</h4>
+
+-This is a paragraph with a brief explanation about the benefits of the program and a suggestion to register so that one of our professionals can contact the user for an evaluation.
+
+<h4>Display Card</h4>
+
+-This section is there are three cards explaining to the user that he can be taking the course from any part of the world in his own time, in an online way.
+
+<h4>Section Meet our Team</h4>
+
+-The user will be able to learn about each coach's background in order to determine which modality they feels interested in.
+
+<h4>Comments by users<h4>
+
+-The comments users was divided into two columns with more users on each side, testifying to the advantages of online classes.
+
+<h4> About Us</h4>
+
+-This section it has two images and two texts explaining more about our online program and the courses that are included.
+
+<h4>Form Page</h4>
+
+-Login, Register Now, contact us were created in order to provide easy access to new, returning and frequent visitor users.
+
+
 
 <h1> DEPLOYMENT</h1>
 
-- To deploy my project, I used the command prompt to push my Gitpod workspace to my Alma Website projectone Github repository. This was done everytime I implemented adjustments to my code which further needed to be stored. The live connection may be found here: .
+- To deploy my project, I used the command prompt to push my Gitpod workspace to my Alma Website projectone Github repository. This was done everytime I implemented adjustments to my code which further needed to be stored. The live connection may be found here: *****************.
 
 <h1>CREDITS</h1>
 
