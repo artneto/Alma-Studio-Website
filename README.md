@@ -94,7 +94,7 @@ DevTools was also used to test the responsiveness using the device toolbar.
 
 <h1>CREDITS</h1>
 
-<h4>TOUR DATES</h4>
+<h4>MAIN PAGE</h4>
 - The main content about Yoga adn what is meditation was found on this website: https://www.verywellmind.com/what-is-meditation-2795927.
 
 <h4>Videos</h4>
