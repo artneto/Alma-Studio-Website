@@ -175,7 +175,7 @@ h3 {
     transform: scale(0.98);
 }
 
-/*What we offer*/
+/*The sanctuary in your home*/
 
 #about {
     padding: 40px;
@@ -316,7 +316,7 @@ a{
 }
 
 
-/*section2 - card about the outcome*/
+/*section2 - card display about the outcome*/
 
 .wrapper{
     display: flex;
@@ -411,7 +411,7 @@ a{
 
 
 
-/*section team */
+/*section meet our team */
 
 .meet-our-team { 
     text-align: center;
@@ -704,7 +704,7 @@ a{
     background: linear-gradient(to left,#8aa2b3, #d3dadb );
 }
 
-/*-----------Form-----------------*/
+/*-----------Register Form-----------------*/
 
 .register-box{
     display: flex;
