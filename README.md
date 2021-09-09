@@ -26,10 +26,6 @@ The primary purpose of the site (both in functionality and design) was to create
 This site allows these users to learn more about the trainers and their background with the option to contact our team for pricing or any questions they may have. 
 We also allows the user to create your own registration or to login in if you already have an account and reviews are also available in the page.
 
-<h4>Mockups</h4>
-- Please find attached to my github a mockup file in format balsamiq for the original first design.
-
-
 <h4>The initial stages</h4>
 
 I've noticed a big rise in demand for online classes as a result of the pandemic situation we're in. After conducting research and gathering material for the website's creation,  that help me to create the page and with the tools and features required for dynamic navigation. Following my plan of action below:
@@ -119,13 +115,17 @@ DevTools was also used to test the responsiveness using the device toolbar.
 
 <h4>Form Page</h4>
 
--Login, Register Now, contact us were created in order to provide easy access to new, returning and frequent visitor users.
+-Login, Register Now, contact us page were created in order to provide easy access to new, returning and frequent visitor users.
+
+<h4>Features Left to Implement</h4>
+
+-Login, Register Now, contact us are not redirected to another page because the focus of the course would only be using HTML and CSS, and for that I would need to work with PHP to create a confirmation page.
 
 
 
 <h1> DEPLOYMENT</h1>
 
-- To deploy my project, I used the command prompt to push my Gitpod workspace to my Alma Website projectone Github repository. This was done everytime I implemented adjustments to my code which further needed to be stored. The live connection may be found here: *****************.
+- To deploy my project, I used the command prompt to push my Gitpod workspace to my Alma Website projectone Github repository. This was done everytime I implemented adjustments to my code which further needed to be stored. The live connection may be found here: https://github.com/artneto/Alma-Studio-Website.
 
 <h1>CREDITS</h1>
 
